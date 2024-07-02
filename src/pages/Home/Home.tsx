@@ -1,10 +1,18 @@
 import React from "react";
-import LinearGradient from "../../components/magicui/linear-gradient";
+
+// native components
+import NavBar from "../../components/NavBar";
 import Bento from "../../components/Bento";
+
+// magicUI Components
+import LinearGradient from "../../components/magicui/linear-gradient";
 
 function Home() {
 	return (
 		<div>
+			<div>
+				<NavBar />
+			</div>
 			<div>
 				<LinearGradient />
 			</div>
