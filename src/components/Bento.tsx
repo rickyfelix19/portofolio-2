@@ -11,8 +11,9 @@ import { BentoCard, BentoGrid } from "../components/magicui/bento-grid";
 const features = [
 	{
 		Icon: FileTextIcon,
-		name: "Save your files",
-		description: "We automatically save your files as you type.",
+		name: "3) Knowledge",
+		description:
+			"I had three degrees, a diploma in management, bachelor in it, and master in interaction design--making me multi-disciplinary.",
 		href: "/",
 		cta: "Learn more",
 		background: <img className="absolute -right-20 -top-20 opacity-60" />,
@@ -20,8 +21,9 @@ const features = [
 	},
 	{
 		Icon: InputIcon,
-		name: "Full text search",
-		description: "Search through all your files in one place.",
+		name: "1) The Beginning",
+		description:
+			"I was born from Medan, Indonesia. A small city where business thrive.",
 		href: "/",
 		cta: "Learn more",
 		background: <img className="absolute -right-20 -top-20 opacity-60" />,
@@ -29,8 +31,8 @@ const features = [
 	},
 	{
 		Icon: GlobeIcon,
-		name: "Multilingual",
-		description: "Supports 100+ languages and counting.",
+		name: "2) Multilingual",
+		description: "I can speak Indonesia and English. ",
 		href: "/",
 		cta: "Learn more",
 		background: <img className="absolute -right-20 -top-20 opacity-60" />,
@@ -38,8 +40,9 @@ const features = [
 	},
 	{
 		Icon: CalendarIcon,
-		name: "Calendar",
-		description: "Use the calendar to filter your files by date.",
+		name: "4) Goals",
+		description:
+			"I aim to be a Product Manager. Inspire to create ideas into solutions and into reality.",
 		href: "/",
 		cta: "Learn more",
 		background: <img className="absolute -right-20 -top-20 opacity-60" />,
@@ -47,9 +50,9 @@ const features = [
 	},
 	{
 		Icon: BellIcon,
-		name: "Notifications",
+		name: "5) Skills",
 		description:
-			"Get notified when someone shares a file or mentions you in a comment.",
+			"And currently other than UI/UX Design, I able to code with React.js and Javascript. Hence, this website is created.",
 		href: "/",
 		cta: "Learn more",
 		background: <img className="absolute -right-20 -top-20 opacity-60" />,
