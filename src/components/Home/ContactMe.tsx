@@ -1,16 +1,16 @@
 import React from "react";
 
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 
 function ContactMe() {
 	return (
-		<div>
+		<div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32 dark:text-black">
 			<div className="bg-gray-200 p-4 rounded-lg h-48 sm:col-span-2 lg:col-span-3 flex flex-col justify-end items-center text-center">
-				<h4 className="text-lg font-bold mb-2 text-black">FIND OUT MORE</h4>
+				<h4 className="text-lg font-bold mb-2 text-black">LET'S HAVE A CHAT</h4>
 				<p className="text-black">
-					Check out my projects through this link. <br />
+					Contact Me <br />
 					<br />
-					<Button>Find out more.</Button>
+					<Button>Send Email</Button>
 				</p>
 			</div>
 		</div>
