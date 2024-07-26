@@ -14,7 +14,7 @@ import LinearGradient from "../components/magicui/linear-gradient";
 
 function Home() {
 	return (
-		<div>
+		<>
 			<NavBar />
 			<LinearGradient />
 			<Introduction />
@@ -23,7 +23,7 @@ function Home() {
 			<ProjectCard />
 			<ContactMe />
 			<Footer />
-		</div>
+		</>
 	);
 }
 
