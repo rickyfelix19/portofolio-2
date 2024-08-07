@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
 	const menuItems = ["About Me", "Projects", "Download Resume"];
 	// const socialLinks = [{ href: "#", icon: "fab fa-github" }];
-	const policyLinks = ["Privacy Policy", "Terms & Conditions"];
+	// const policyLinks = ["Privacy Policy", "Terms & Conditions"];
 
 	return (
 		<footer className="bg-gray-800 py-8 mt-10">
@@ -11,7 +11,7 @@ const Footer = () => {
 				<h2 className="text-white text-3xl font-bold mb-6">
 					Drop me a line or two, I am open for a chat and collaborations!
 				</h2>
-				<button className="bg-black text-white py-3 px-8 rounded-full font-medium text-lg shadow-lg hover:bg-gray-800 transition mb-10">
+				<button className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 					Contact Me!
 				</button>
 
@@ -41,7 +41,7 @@ const Footer = () => {
 					))}
 				</div> */}
 
-				<div className="mt-8 text-white">
+				<div className="mt-8 text-white text-xs italic">
 					This website is mainly created using React.js, Tailwind.css, and
 					MagicUI and is under constant improvements!
 				</div>
