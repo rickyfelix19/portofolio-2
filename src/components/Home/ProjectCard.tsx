@@ -8,7 +8,7 @@ function ProjectCard() {
 			title:
 				"KIPI is a bi-annual conference held and organized by PPIA (Indonesian Students’ Association of Australia ) and invites Indonesian academias staying at Australia to share their work.",
 			paragraph:
-				"In the end result, our team is able to create a website for all of our viewers to enjoy during the Conference activities.",
+				"The final results in our team creating a website for all of our viewers to enjoy during the Conference activities.",
 			link: "",
 		},
 		{
@@ -32,7 +32,7 @@ function ProjectCard() {
 	];
 	return (
 		<div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32 dark:text-black">
-			<h4 className="text-slate-100 text-xl sm:text-xl lg:text-xl tracking-tight text-center mb-10">
+			<h4 className="text-white dark:text-black text-xl sm:text-xl lg:text-xl tracking-tight text-center mb-10">
 				CASE STUDIES
 			</h4>
 
@@ -40,11 +40,10 @@ function ProjectCard() {
 				{projectCardItems.map((item, index) => (
 					<div
 						key={index}
-						className="bg-white p-8 rounded-lg flex items-center mb-10"
+						className="bg-slate-300 p-8 rounded-lg flex items-center mb-10"
 					>
-						<div onClick={() => item.link} className="w-1/2 pr-8">
-							<a href={item.link}></a>
-							<p className="text-xs font-semibold text-gray-600 mb-2">
+						<div className="w-1/2 pr-8">
+							<p className="text-s font-semibold text-gray-600 mb-2">
 								{item.subheading}
 							</p>
 							<h2 className="text-2xl font-bold text-black mb-4">

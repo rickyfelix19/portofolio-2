@@ -1,18 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-
-// react router
 import App from "./App.tsx";
 
+// react router
 import {
 	BrowserRouter,
-	createBrowserRouter,
-	RouterProvider,
+	// createBrowserRouter,
+	// RouterProvider,
 } from "react-router-dom";
 
 // pages
-import Home from "./pages/Home.tsx";
+// import Home from "./pages/Home.tsx";
 
 // const router = createBrowserRouter([
 // 	{

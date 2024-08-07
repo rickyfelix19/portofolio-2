@@ -1,27 +1,26 @@
 import React from "react";
 
 // native components
-import NavBar from "../components/Home/NavBar";
+import NavBar from "../components/Common/NavBar";
 import Introduction from "../components/Home/Introduction";
 import BentoBox from "../components/Home/BentoBox";
-import TextRevealDemo from "../components/Home/TextRevealDemo";
-import ContactMe from "../components/Home/ContactMe";
+import TextRevealTagline from "../components/Home/TextRevealTagline";
+// import ContactMe from "../components/Home/ContactMe";
 import ProjectCard from "../components/Home/ProjectCard";
-import Footer from "../components/Footer";
+import Footer from "../components/Common/Footer";
 
 // magicUI Components
-import LinearGradient from "../components/magicui/linear-gradient";
+// import LinearGradient from "../components/magicui/linear-gradient";
 
 function Home() {
 	return (
 		<>
 			<NavBar />
-			<LinearGradient />
 			<Introduction />
 			<BentoBox />
-			<TextRevealDemo />
+			<TextRevealTagline />
 			<ProjectCard />
-			<ContactMe />
+			{/* <ContactMe /> */}
 			<Footer />
 		</>
 	);
