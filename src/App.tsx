@@ -1,5 +1,3 @@
-import React from "react";
-
 import Home from "./pages/Home";
 import NotFound404 from "./pages/NotFound404";
 import KIPI2022 from "./components/Projects/KIPI2022";

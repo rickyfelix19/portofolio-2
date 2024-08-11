@@ -1,5 +1,3 @@
-import React from "react";
-
 import TypingAnimation from "../magicui/typing-animation";
 
 function Introduction() {

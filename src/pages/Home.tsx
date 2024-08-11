@@ -1,5 +1,3 @@
-import React from "react";
-
 // native components
 import NavBar from "../components/Common/NavBar";
 import Introduction from "../components/Home/Introduction";

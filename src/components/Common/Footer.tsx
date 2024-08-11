@@ -1,7 +1,12 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
-	const menuItems = ["About Me", "Projects", "Download Resume"];
+	const menuItems = [
+		{ name: "About Me", path: "/about" },
+		{ name: "Projects", path: "/projects" },
+		{ name: "Download Resume", path: "/link" },
+	];
+	// const menuItems = ["About Me", "Projects", "Download Resume"];
 	// const socialLinks = [{ href: "#", icon: "fab fa-github" }];
 	// const policyLinks = ["Privacy Policy", "Terms & Conditions"];
 
@@ -18,13 +23,13 @@ const Footer = () => {
 				{/* Menu Items */}
 				<div className="mt-10 flex justify-center space-x-20">
 					{menuItems.map((item, index) => (
-						<a
+						<Link
 							key={index}
-							href="#"
-							className="text-white hover:text-black transition"
+							to={item.path}
+							className="text-gray-700 hover:text-black transition"
 						>
-							{item}
-						</a>
+							{item.name}
+						</Link>
 					))}
 				</div>
 
