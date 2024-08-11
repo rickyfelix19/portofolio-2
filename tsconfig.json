@@ -11,7 +11,7 @@
 	"compilerOptions": {
 		// ...
 		"baseUrl": ".",
-		"jsx": "react-jsxdev",
+		"jsx": "react-jsx",
 		"strict": true, // Enable strict type-checking options
 		"forceConsistentCasingInFileNames": true,
 		"paths": {

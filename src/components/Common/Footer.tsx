@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	const menuItems = [
-		{ name: "About Me", path: "/about" },
-		{ name: "Projects", path: "/projects" },
-		{ name: "Download Resume", path: "/link" },
+		{ name: "About Me", path: "/" },
+		{ name: "Projects", path: "/" },
+		{ name: "Download Resume", path: "/" },
 	];
 	// const menuItems = ["About Me", "Projects", "Download Resume"];
 	// const socialLinks = [{ href: "#", icon: "fab fa-github" }];

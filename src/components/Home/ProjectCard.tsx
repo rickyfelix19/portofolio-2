@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function ProjectCard() {
 	const projectCardItems = [
 		{
@@ -7,7 +9,7 @@ function ProjectCard() {
 				"KIPI is a bi-annual conference held and organized by PPIA (Indonesian Students’ Association of Australia ) and invites Indonesian academias staying at Australia to share their work.",
 			paragraph:
 				"The final results in our team creating a website for all of our viewers to enjoy during the Conference activities.",
-			link: "",
+			link: "/projects/kipi",
 		},
 		{
 			image: "",
@@ -16,7 +18,7 @@ function ProjectCard() {
 				"Give a Gift was a solution to introduce that gift gifting is possible even if you are far away from your loved ones.",
 			paragraph:
 				"Our solution was featured as one of the best UX Design Solution within the cohort.",
-			link: "",
+			link: "/projects/mobile-computing",
 		},
 		{
 			image: "",
@@ -25,7 +27,7 @@ function ProjectCard() {
 				"Bottled Moments is a created to introduce the connection of people to the lake by sending memories and gifts onto the lake (digitally)",
 			paragraph:
 				"Our group received one of the best solution and was presented to the clienteles at mapMIMA.",
-			link: "",
+			link: "/projects/idea-studio",
 		},
 	];
 	return (
@@ -36,8 +38,9 @@ function ProjectCard() {
 
 			<div className="min-h-screen flex flex-col items-center justify-center p-8">
 				{projectCardItems.map((item, index) => (
-					<div
+					<Link
 						key={index}
+						to={item.link}
 						className="bg-slate-300 p-8 rounded-lg flex items-center mb-10"
 					>
 						<div className="w-1/2 pr-8">
@@ -56,7 +59,7 @@ function ProjectCard() {
 								className="w-40 h-80 object-cover"
 							/>
 						</div>
-					</div>
+					</Link>
 				))}
 			</div>
 		</div>
