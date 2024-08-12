@@ -1,8 +1,8 @@
 import Home from "./pages/Home";
 import NotFound404 from "./pages/NotFound404";
-import KIPI2022 from "./components/Projects/KIPI2022";
-import IDEAStudio from "./components/Projects/IDEAStudio";
-import MobileComp from "./components/Projects/MobileComp";
+import KIPI2022 from "./pages/projects/KIPI2022";
+import IDEAStudio from "./pages/projects/IDEAStudio";
+import MobileComp from "./pages/projects/MobileComp";
 
 import { Routes, Route } from "react-router-dom";
 

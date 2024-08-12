@@ -1,7 +1,7 @@
-import NavBar from "../Common/NavBar";
-import Footer from "../Common/Footer";
+import NavBar from "../../components/Common/NavBar";
+import Footer from "../../components/Common/Footer";
 
-function MobileComp() {
+function IDEAStudio() {
 	return (
 		<>
 			<NavBar />
@@ -13,4 +13,4 @@ function MobileComp() {
 	);
 }
 
-export default MobileComp;
+export default IDEAStudio;

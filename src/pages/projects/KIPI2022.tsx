@@ -1,5 +1,5 @@
-import NavBar from "../Common/NavBar";
-import Footer from "../Common/Footer";
+import NavBar from "../../components/Common/NavBar";
+import Footer from "../../components/Common/Footer";
 
 function KIPI2022() {
 	return (

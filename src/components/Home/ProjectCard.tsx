@@ -41,9 +41,16 @@ function ProjectCard() {
 					<Link
 						key={index}
 						to={item.link}
-						className="bg-slate-300 p-8 rounded-lg flex items-center mb-10"
+						className="bg-slate-300 p-8 rounded-lg flex flex-col sm:flex-row items-center mb-10"
 					>
-						<div className="w-1/2 pr-8">
+						<div className="w-full sm:w-1/2 sm:order-2 flex justify-center relative mb-4 sm:mb-0">
+							<img
+								src={item.image}
+								alt="Phone 1"
+								className="w-40 h-80 object-cover"
+							/>
+						</div>
+						<div className="w-full sm:w-1/2 sm:order-1 pr-8">
 							<p className="text-s font-semibold text-gray-600 mb-2">
 								{item.subheading}
 							</p>
@@ -51,13 +58,6 @@ function ProjectCard() {
 								{item.title}
 							</h2>
 							<p className="text-black">{item.paragraph}</p>
-						</div>
-						<div className="w-1/2 flex justify-center relative">
-							<img
-								src={item.image}
-								alt="Phone 1"
-								className="w-40 h-80 object-cover"
-							/>
 						</div>
 					</Link>
 				))}
