@@ -8,9 +8,9 @@ function BlogPost() {
 			<div className="max-w-4xl mx-auto p-8">
 				{/* Header */}
 				<header className="mb-8 text-center">
-					<h1 className="text-4xl font-bold mb-4 text-white">KIPI 2022</h1>
+					<h1 className="text-4xl font-bold mb-4 text-white">Give a Gift</h1>
 					<p className="text-white">
-						Developed with the team at PPIA Department of IT for about 3 months
+						University of Sydney course - Mobile Computing - COMP5216
 					</p>
 				</header>
 				{/* Image */}
@@ -26,50 +26,113 @@ function BlogPost() {
 					<h2 className="text-3xl">Introduction</h2>
 					<br />
 					<p>
-						KIPI is an hybrid international symposium events organized by PPIA
-						(Indonesian Students’ Association of Australia). The following
-						project will only show one milestone out of three (KIPI 2022, a PPIA
-						bi-annual event). However, the tools and design thinking process
-						remains the same.
+						When people want to show how much they appreciate or care for
+						someone, they would like to send a perfect present. People send
+						presents using parcel post services if they cannot give them in
+						person. Regardless of the types of gifts - from just a handwritten
+						letter to big tangible objects like furniture - sending them takes a
+						lot of time and effort.
 						<br /> <br />
-						Annually, PPI DUNIA organizes an international symposium and in
-						2022, PPI-Australia was selected to be as the host and organizer of
-						SI XIV. Perhimpunan Pelajar Indonesia Australia (PPIA) or Indonesian
-						Students’ Association of Australia.
+						People are spending more time in their office to meet a deadline or
+						to get their promotion. And sometimes they sacrifice their
+						relationship and connections with loved ones. And we want to let
+						people still connect with one another even when they are busy with
+						their schedule.
 						<br /> <br />
-						For approximately one year, PPIA create and organized multiple
-						events and named it Road to SI. Our events / milestones are as
-						follow:
-						<ol>
-							<li>1. KIPI</li>
-							<li>2. Career Fest</li>
-							<li>3. Symposium International XIV</li>
-						</ol>
+						A cost and time-efficient solution for passing on the gift to
+						senders and receivers with more diverse options for items.
+						<br /> <br />
+					</p>
+				</article>
+
+				<article className="prose prose-lg max-w-none text-white">
+					<h3 className="text-2xl">Background Research</h3>
+					<br />
+
+					<p>
+						<h3 className="text-xl">The Sender Problem:</h3>
+						<ul>
+							<li>
+								- Consume time for buying the gifts whether online or offline
+							</li>
+							<li>
+								- Require extra effort asking receiver about their personal
+								information such as address and number
+							</li>
+							<li>
+								- Need extra time to go to the post office to mail a package
+							</li>
+							<li>
+								- Require extra effort to keep track of the parcel until the
+								receiver receives it
+							</li>
+						</ul>
 						<br />
-						And I was assigned to lead the project to create a “Road to SI”
-						website.
-						<br /> <br />
+						<h3 className="text-xl">The Recipient Problem:</h3>
+						<ul>
+							<li>
+								- Need to reveal their private information that they might not
+								want to reveal
+							</li>
+							<li>
+								- Need extra effort to keep track of the parcel until they
+								receives it
+							</li>
+							<li>
+								- Need extra time and effort to go to he pick-up; place and
+								receives it
+							</li>
+						</ul>
+						<br />
+						<ul>
+							<h3 className="text-xl">
+								Based on our findings, our group found out that:
+							</h3>
+							<li>
+								- In 2020, there is a 80% increase of global search for “Online
+								Gift” compared to 2019. And 90% of final purchases still happens
+								in stores.
+							</li>
+							<li>
+								- Approximately 89% of buyers (do their) research online before
+								making the final decision to purchase it on the store.
+							</li>
+							<li>
+								- Australia Gift Card and Incentive Card Market Report 2022
+								indicate that Market Value will increase from $5446.5 Million in
+								2021 to reach $85045 Million by 2026
+							</li>
+							<br />
+							<h3 className="text-xl">
+								And our (Give a Gift) competitors are:
+							</h3>
+							<ol>
+								<li>1) Amazon</li>
+								<li>2) Prezee</li>
+								<li>3) Uber</li>
+								<li>4) GiftsApp</li>
+								<li>5) Gifticon</li>
+							</ol>
+						</ul>
 					</p>
 				</article>
+				<br />
 				<hr />
 				<br />
+
 				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">Design Thinking Process</h3>
+					<h3 className="text-2xl">1) Initial Rough Sketch</h3>
 					<p>
-						Our team goes through the Stanford design thinking process as our
-						main process.
-					</p>
-					<br />
-				</article>
-				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">1) Empathize</h3>
-					<p>
-						As our team grow larger due to handling multiple projects. We
-						started recruiting more people and therefore, created an onboarding
-						process, we also include our stakeholders in our process to gather
-						requirements and ensuring everyone is well informed each step from
-						the beginning until the end.
+						As I joined the group late, our group created an initial sketch of
+						the application in which I change
 						<br /> <br />
+						<div className="mb-8">
+							<img
+								src="https://via.placeholder.com/800x400"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
 						<div className="mb-8">
 							<img
 								src="https://via.placeholder.com/800x400"
@@ -80,47 +143,20 @@ function BlogPost() {
 					</p>
 				</article>
 				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">2) Define</h3>
+					<h3 className="text-2xl">2) Design</h3>
 					<p>
-						As we continue down our process, we start conceptualizing our ideas
-						into architectures and user journeys before we start creating our
-						lo-fidelity and high fidelity.
-						<br /> <br />
-						<div className="mb-8">
-							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-						</div>
-					</p>
-				</article>
-				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">3) Ideations </h3>
-					<p>
-						In total, our group ideate in total six times,
+						After sketching and doing a quick informal interview, I then
+						implemented our design, our group did a final internal critique to
+						evaluate what design that we should change. We mainly discuss on how
+						to improve our final product by removing any pain points by making
+						sure we comply with 10 Usability Heuristics Guideline.
 						<ol>
+							<li>1) Recognition rather than recall (to find users)</li>
+							<li>2) Using informal feedback to improve our overall design</li>
 							<li>
-								1) We started by creating our lo fidelity. Each one of us
-								designed our own version of the page
-							</li>
-							<li>
-								2) We then went through internal discussion with ourselves to
-								see which one we should use and improved upon
-							</li>
-							<li>
-								3) We then select "our final piece" and add contemporary colors
-								to the page
-							</li>
-							<li>
-								4) We submit the result to our stakeholders and receive feedback
-								that the color pallette didn't match with the overall theme of
-								the conference and it made it seemed "unprofessional and
-								childish" as it looked similar to childrens' toy color palette.
-							</li>
-							<li>
-								5) Receiving the feedback, we continue by creating a Mi-Fidelity
-								of our product
+								3) Use available Lottie and annotated onboarding screens to make
+								it easier for our users to understand our app functionality
+								before using it
 							</li>
 						</ol>
 						<br /> <br />
@@ -134,11 +170,59 @@ function BlogPost() {
 					</p>
 				</article>
 				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">4) Final Version</h3>
+					<h3 className="text-2xl">3) Handover to Developer (using Zeplin) </h3>
 					<p>
-						Approaching the deadline, we conducted a final usability testing to
-						random users to improve upon our website, and the final result of
-						the website is as seen as follow:
+						At this stage, I started finalizing our design and began to
+						integrate it onto Zeplin to handover to the developers to began
+						coding. As the final part of the application is separated onto two
+						parts
+						<ol>
+							<li>1) The Client Side</li>
+							<li>2) The Business Side</li>
+							<br />
+							As a result, of such implementation, our group is marked as one of
+							the highest and one of many groups that is presented to the cohort
+							as one of the best UX solution within our class.
+							<br />
+							<br />
+							<span className="italic">
+								"Some groups do really well and this is another project that
+								many assessors like especially the idea they found. It is a very
+								good development on the application" -{" "}
+							</span>
+							<span className="font-semibold">
+								Dr Kanchana (Subject Coordinator)
+							</span>
+						</ol>
+						<br /> <br />
+						<div className="mb-8">
+							<img
+								src="https://via.placeholder.com/800x400"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="https://via.placeholder.com/800x400"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="https://via.placeholder.com/800x400"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+					</p>
+				</article>
+				<article className="prose prose-lg max-w-none text-white">
+					<h3 className="text-2xl">4) Final Result</h3>
+					<p>
+						Due to achieving high marks, our group project is presented to the
+						whole cohort.
 						<br /> <br />
 						<div className="mb-8">
 							<img
@@ -153,24 +237,6 @@ function BlogPost() {
 				<hr />
 				<br />
 
-				<article className="prose prose-lg max-w-none text-white">
-					<h2 className="text-3xl">After KIPI 2022</h2>
-					<br />
-					<p>
-						After KIPI 2022, as previously stated there were two more that we
-						need to finalize (Career Fest and Symposium International). Both of
-						them overall follows the same design thinking process. As we
-						maximize our time and effort by using Trello to do our agile sprint.
-						<br /> <br />
-						<div className="mb-8">
-							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-						</div>
-					</p>
-				</article>
 				{/* Footer */}
 				<footer className="mt-16 text-center">
 					<p className="text-white">
