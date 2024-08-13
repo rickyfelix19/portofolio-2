@@ -46,7 +46,7 @@ const Footer = () => {
 					))}
 				</div> */}
 
-				<div className="mt-8 text-white text-xs italic">
+				<div className="mt-10 text-white text-xs italic">
 					This website is mainly created using React.js, Tailwind.css, and
 					MagicUI. <br />
 					It is under constant improvements!
