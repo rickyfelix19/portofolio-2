@@ -16,25 +16,25 @@ function NavigationBar() {
 					<div className="hidden md:flex justify-center items-center w-full space-x-8">
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							Home
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							About Me
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							Projects
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							Contact Me
 						</Link>
@@ -101,25 +101,25 @@ function NavigationBar() {
 					<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
 							Home
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
 							About Me
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
 							Projects
 						</Link>
 						<Link
 							to="/"
-							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
 							Contact Me
 						</Link>

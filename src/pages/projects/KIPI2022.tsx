@@ -56,6 +56,14 @@ function BlogPost() {
 					<h2 className="text-3xl">Creating Our Brief</h2>
 					<br />
 					<p>Our group started this project by creating a brief as follow</p>
+					<br />
+					<div className="mb-8">
+						<img
+							src="https://via.placeholder.com/800x400"
+							alt="Blog Post Cover"
+							className="w-full rounded-lg object-cover"
+						/>
+					</div>
 				</article>
 
 				{/* Footer */}

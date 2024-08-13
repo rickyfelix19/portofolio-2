@@ -26,7 +26,7 @@ const Footer = () => {
 						<Link
 							key={index}
 							to={item.path}
-							className="text-gray-700 hover:text-black transition"
+							className="text-white hover:text-gray-400 transition"
 						>
 							{item.name}
 						</Link>
