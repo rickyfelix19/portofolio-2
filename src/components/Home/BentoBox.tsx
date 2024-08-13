@@ -2,7 +2,7 @@ function BentoBox() {
 	const bentoBoxItems = [
 		{
 			classNameBox:
-				"sm:col-span-2 bg-slate-300 p-4 rounded-lg h-80 flex flex-col justify-end items-center text-center ",
+				"bg-slate-300 p-4 rounded-lg h-80 flex flex-col justify-end items-center text-center ",
 			heading: "INTRODUCTION",
 			paragraph:
 				"Hi, I am Ricky Felix, a UI/UX Developer from Medan, Indonesia.",
@@ -10,7 +10,7 @@ function BentoBox() {
 		},
 		{
 			classNameBox:
-				"bg-slate-300 p-4 rounded-lg h-80 sm:col-span-2 flex flex-col justify-end items-center text-center ",
+				"bg-slate-300 p-4 rounded-lg h-80 col-span-2 max-lg:col-span-1 flex flex-col justify-end items-center text-center ",
 			heading: "MORE ABOUT ME",
 			paragraph:
 				"I am mainly do more design than coding now. However, this website is 100% code with Reactjs and other UI Libraries.",
@@ -18,21 +18,21 @@ function BentoBox() {
 		},
 		{
 			classNameBox:
-				"bg-slate-300 p-4 rounded-lg sm:col-span-2 h-80 flex flex-col justify-end items-center text-center ",
+				"bg-slate-300 p-4 rounded-lg h-80 flex flex-col justify-end items-center text-center ",
 			heading: "CODING",
 			paragraph: "Reactjs, HTML, CSS, JavaScript, Tailwind, Bootstrap, SQL",
 			image: "",
 		},
 		{
 			classNameBox:
-				"bg-slate-300 p-4 rounded-lg sm:col-span-2 h-80 flex flex-col justify-end items-center text-center ",
+				"bg-slate-300 p-4 rounded-lg  h-80 flex flex-col justify-end items-center text-center ",
 			heading: "DESIGN",
 			paragraph: "Adobe Photoshop, Figma, Figjam, Miro, Balsamiq",
 			image: "",
 		},
 		{
 			classNameBox:
-				"bg-slate-300 p-4 rounded-lg sm:col-span-2 h-80 flex flex-col justify-end items-center text-center ",
+				"bg-slate-300 p-4 rounded-lg h-80 flex flex-col justify-end items-center text-center ",
 			heading: "SOFT SKILLS",
 			paragraph:
 				"Teamwork, Design Thinking, Leadership, Communication, Marketing, Hospitality",
