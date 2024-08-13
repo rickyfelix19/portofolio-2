@@ -1,101 +1,140 @@
-import {
-	Disclosure,
-	DisclosureButton,
-	DisclosurePanel,
-} from "@headlessui/react";
-
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const navigation = [
-	{ name: "Home", href: "/", current: true },
-	{ name: "About Me", href: "/", current: false },
-	{ name: "Projects", href: "/", current: false },
-	{ name: "Contact Me", href: "/", current: false },
-];
+function NavigationBar() {
+	const [isOpen, setIsOpen] = useState(false);
 
-function classNames(...classes: string[]): string {
-	return classes.filter(Boolean).join(" ");
-}
-
-export default function NavBar() {
 	return (
-		<Disclosure as="nav" className="bg-gray-800">
-			<div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-				<div className="relative flex h-16 items-center justify-between">
-					<div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-						{/* Mobile menu button*/}
-						<DisclosureButton className="group relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-							<span className="absolute -inset-0.5" />
-							<span className="sr-only">Open main menu</span>
-							<Bars3Icon
-								aria-hidden="true"
-								className="block h-6 w-6 group-data-[open]:hidden"
-							/>
-							<XMarkIcon
-								aria-hidden="true"
-								className="hidden h-6 w-6 group-data-[open]:block"
-							/>
-						</DisclosureButton>
+		<nav className="bg-gray-800 shadow-lg">
+			<div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+				<div className="flex justify-between items-center h-16">
+					<div className="flex justify-center items-center w-full md:w-auto">
+						<Link to="/" className="text-xl font-bold text-white">
+							RF
+						</Link>
 					</div>
-					<div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-						<div className="flex flex-shrink-0 items-center">
-							<h4 className="h-8 w-auto text-white">RF</h4>
-						</div>
-						<div className="hidden sm:ml-6 sm:block">
-							<div className="flex space-x-4">
-								{navigation.map((item) => (
-									<Link
-										key={item.name}
-										to={item.href}
-										aria-current={item.current ? "page" : undefined}
-										className={classNames(
-											item.current
-												? "bg-gray-900 text-white"
-												: "text-gray-300 hover:bg-gray-700 hover:text-white",
-											"rounded-md px-3 py-2 text-sm font-medium"
-										)}
-									>
-										{item.name}
-									</Link>
-								))}
-							</div>
-						</div>
-					</div>
-					<div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-						<button
-							type="button"
-							className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					<div className="hidden md:flex justify-center items-center w-full space-x-8">
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
-							<span className="absolute -inset-1.5" />
-							<span className="sr-only">View notifications</span>
-							<h4>Download Resume</h4>
+							Home
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+						>
+							About Me
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+						>
+							Projects
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 px-3 py-2 rounded-md text-sm font-medium text-center"
+						>
+							Contact Me
+						</Link>
+					</div>
+					<div className="hidden md:flex items-center justify-center w-full md:w-auto">
+						<a
+							href="/resume.pdf"
+							className="text-white bg-indigo-600 hover:bg-indigo-700 px-5 py-2 rounded-md text-sm font-medium"
+							download
+						>
+							Resume
+						</a>
+					</div>
+					<div className="-mr-2 flex items-center md:hidden">
+						<button
+							onClick={() => setIsOpen(!isOpen)}
+							type="button"
+							className="bg-gray-800 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+							aria-controls="mobile-menu"
+							aria-expanded="false"
+						>
+							<span className="sr-only">Open main menu</span>
+							{isOpen ? (
+								<svg
+									className="block h-6 w-6"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2"
+										d="M6 18L18 6M6 6l12 12"
+									/>
+								</svg>
+							) : (
+								<svg
+									className="block h-6 w-6"
+									xmlns="http://www.w3.org/2000/svg"
+									fill="none"
+									viewBox="0 0 24 24"
+									stroke="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										strokeLinecap="round"
+										strokeLinejoin="round"
+										strokeWidth="2"
+										d="M4 6h16M4 12h16m-7 6h7"
+									/>
+								</svg>
+							)}
 						</button>
 					</div>
 				</div>
 			</div>
 
-			<DisclosurePanel className="sm:hidden">
-				<div className="space-y-1 px-2 pb-3 pt-2">
-					{navigation.map((item) => (
-						<DisclosureButton
-							key={item.name}
-							as="a"
-							href={item.href}
-							aria-current={item.current ? "page" : undefined}
-							className={classNames(
-								item.current
-									? "bg-gray-900 text-white"
-									: "text-gray-300 hover:bg-gray-700 hover:text-white",
-								"block rounded-md px-3 py-2 text-base font-medium"
-							)}
+			{/* Mobile Menu */}
+			{isOpen && (
+				<div className="md:hidden" id="mobile-menu">
+					<div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
-							{item.name}
-						</DisclosureButton>
-					))}
+							Home
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+						>
+							About Me
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+						>
+							Projects
+						</Link>
+						<Link
+							to="/"
+							className="text-white hover:text-gray-500 block px-3 py-2 rounded-md text-base font-medium text-center"
+						>
+							Contact Me
+						</Link>
+						<a
+							href="/resume.pdf"
+							className="text-white bg-blue-600 hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium text-center"
+							download
+						>
+							Download Resume
+						</a>
+					</div>
 				</div>
-			</DisclosurePanel>
-		</Disclosure>
+			)}
+		</nav>
 	);
 }
+
+export default NavigationBar;
