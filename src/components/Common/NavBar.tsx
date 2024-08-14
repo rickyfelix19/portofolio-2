@@ -35,7 +35,7 @@ function NavigationBar() {
 					</div>
 					<div className="hidden md:flex items-center justify-center w-full md:w-auto">
 						<a
-							href="/resume.pdf"
+							href="./Ricky_Felix-Resume-UIUX_Designer.pdf"
 							className="text-white bg-indigo-600 hover:bg-indigo-700 px-5 py-2 rounded-md text-sm font-medium"
 							download
 						>
@@ -112,7 +112,7 @@ function NavigationBar() {
 							Projects
 						</Link>
 						<a
-							href="/resume.pdf"
+							href="./Ricky_Felix-Resume-UIUX_Designer.pdf"
 							className="text-white bg-blue-600 hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium text-center"
 							download
 						>

@@ -4,8 +4,11 @@ const Footer = () => {
 	const menuItems = [
 		{ name: "About Me", path: "/#sectionAbout" },
 		{ name: "Projects", path: "/#sectionProject" },
-		{ name: "Download Resume", path: "/" },
 	];
+	const email = "your-email@example.com";
+	const subject = "Subject Here";
+	const body = "Hello, I would like to get in touch with you regarding...";
+
 	// const menuItems = ["About Me", "Projects", "Download Resume"];
 	// const socialLinks = [{ href: "#", icon: "fab fa-github" }];
 	// const policyLinks = ["Privacy Policy", "Terms & Conditions"];
@@ -16,7 +19,14 @@ const Footer = () => {
 				<h2 className="text-white text-3xl font-bold mb-6">
 					Drop me a line or two, I am open for a chat and collaborations!
 				</h2>
-				<button className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+				<button
+					className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					onClick={() =>
+						(window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+							subject
+						)}&body=${encodeURIComponent(body)}`)
+					}
+				>
 					Contact Me!
 				</button>
 
