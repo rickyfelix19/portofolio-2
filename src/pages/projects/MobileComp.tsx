@@ -131,13 +131,6 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-						</div>
-						<div className="mb-8">
-							<img
 								src="../projects/mobile-comp/Lo Fidelity.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
@@ -255,7 +248,7 @@ function BlogPost() {
 							target="_blank"
 							rel="noopener noreferrer"
 							className="underline italic"
-							href="https://symposium-ppid.webflow.io/"
+							href="https://drive.google.com/file/d/11ebV2Xbhvc4fHa1o3UPt9t69tD9xOaaA/view?usp=sharing"
 						>
 							here
 						</a>
