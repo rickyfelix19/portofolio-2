@@ -21,22 +21,16 @@ function NavigationBar() {
 							Home
 						</Link>
 						<Link
-							to="/"
+							to="/#sectionAbout"
 							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							About Me
 						</Link>
 						<Link
-							to="/"
+							to="/#sectionProject"
 							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
 						>
 							Projects
-						</Link>
-						<Link
-							to="/"
-							className="text-white hover:text-gray-400 px-3 py-2 rounded-md text-sm font-medium text-center"
-						>
-							Contact Me
 						</Link>
 					</div>
 					<div className="hidden md:flex items-center justify-center w-full md:w-auto">
@@ -116,12 +110,6 @@ function NavigationBar() {
 							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
 						>
 							Projects
-						</Link>
-						<Link
-							to="/"
-							className="text-white hover:text-gray-400 block px-3 py-2 rounded-md text-base font-medium text-center"
-						>
-							Contact Me
 						</Link>
 						<a
 							href="/resume.pdf"

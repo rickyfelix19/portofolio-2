@@ -16,7 +16,7 @@ function BlogPost() {
 				{/* Image */}
 				<div className="mb-8">
 					<img
-						src="https://via.placeholder.com/800x400"
+						src="../projects/kipi-2022/Banner.png"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
@@ -72,7 +72,14 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/kipi-2022/Stakeholders.jpg"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="../projects/kipi-2022/KIPI Brief.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -84,11 +91,18 @@ function BlogPost() {
 					<p>
 						As we continue down our process, we start conceptualizing our ideas
 						into architectures and user journeys before we start creating our
-						lo-fidelity and high fidelity.
+						lo-fidelity and high fidelity from Figma to Webflow.
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/kipi-2022/Architecture.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="../projects/kipi-2022/Comparison.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -126,7 +140,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/kipi-2022/Lo Fidelity.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -142,7 +156,14 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/kipi-2022/Final.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="../projects/kipi-2022/Congrats.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -164,7 +185,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/kipi-2022/Trello.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>

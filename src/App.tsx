@@ -10,7 +10,7 @@ function App() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-			{/* <Route path="/projects/" element={<Home />} /> */}
+			<Route path="/projects/" element={<Home />} />
 			{/* projects route */}
 			<Route path="/projects/kipi" element={<KIPI2022 />} />
 			<Route path="/projects/mobile-computing" element={<MobileComp />} />

@@ -16,7 +16,7 @@ function BlogPost() {
 				{/* Image */}
 				<div className="mb-8">
 					<img
-						src="https://via.placeholder.com/800x400"
+						src="../projects/mobile-comp/Banner.png"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
@@ -44,6 +44,10 @@ function BlogPost() {
 						<br /> <br />
 					</p>
 				</article>
+
+				<br />
+				<hr />
+				<br />
 
 				<article className="prose prose-lg max-w-none text-white">
 					<h3 className="text-2xl">Background Research</h3>
@@ -117,14 +121,13 @@ function BlogPost() {
 					</p>
 				</article>
 				<br />
-				<hr />
-				<br />
 
 				<article className="prose prose-lg max-w-none text-white">
 					<h3 className="text-2xl">1) Initial Rough Sketch</h3>
 					<p>
 						As I joined the group late, our group created an initial sketch of
-						the application in which I change
+						the application in which I change to Lo Fidelity (and eventually
+						High Fidelity of the application)
 						<br /> <br />
 						<div className="mb-8">
 							<img
@@ -135,7 +138,7 @@ function BlogPost() {
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Lo Fidelity.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -162,7 +165,14 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Profile page changes.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="mb-8">
+							<img
+								src="../projects/mobile-comp/Onboarding.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -197,21 +207,21 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Zeplin.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Client.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Business.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -226,7 +236,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/mobile-comp/Presentation.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -240,14 +250,14 @@ function BlogPost() {
 				{/* Footer */}
 				<footer className="mt-16 text-center">
 					<p className="text-white">
-						Demo is available at:{" "}
+						Presentation video is available at:{" "}
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
 							className="underline italic"
 							href="https://symposium-ppid.webflow.io/"
 						>
-							https://symposium-ppid.webflow.io/
+							here
 						</a>
 					</p>
 				</footer>

@@ -18,7 +18,7 @@ function BlogPost() {
 				{/* Image */}
 				<div className="mb-8">
 					<img
-						src="https://via.placeholder.com/800x400"
+						src="../projects/idea-studio/Banner.webp"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
@@ -49,14 +49,14 @@ function BlogPost() {
 						<br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Double Diamond.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Triple Diamond.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -90,7 +90,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/mapMima attraction.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -104,7 +104,7 @@ function BlogPost() {
 						research, the users that comes and goes to mapMIMA as follow:
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/brainstorm.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -118,14 +118,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-						</div>
-						<div className="mb-8">
-							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/data analytics.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -133,14 +126,15 @@ function BlogPost() {
 						To find out, we should target the following target user as well as
 						creating our Proto Persona as follow:
 						<div className="mb-8">
+							<div className="mb-8">
+								<img
+									src="../projects/idea-studio/target users.png"
+									alt="Blog Post Cover"
+									className="w-full rounded-lg object-cover"
+								/>
+							</div>
 							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-							<br />
-							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Persona.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -154,7 +148,7 @@ function BlogPost() {
 						Bottled Moments:
 						<br />
 						<img
-							src="https://via.placeholder.com/800x400"
+							src="../projects/idea-studio/Ideation Process.png"
 							alt="Blog Post Cover"
 							className="w-full rounded-lg object-cover"
 						/>
@@ -172,7 +166,7 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Bottled Moments.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -191,14 +185,14 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Artifact Research.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Adopt Design System.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -214,14 +208,14 @@ function BlogPost() {
 						<br /> <br />
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Bottled Moments app.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 						<div className="mb-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Resolume app.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -243,6 +237,18 @@ function BlogPost() {
 							href="https://drive.google.com/file/d/1Sfhon25CuOQAvmYoDRndlSHwcfzuQN65/view"
 						>
 							clicking here
+						</a>
+					</p>
+					<p className="text-white">
+						To see the full presentation, including MVP, Success Outcome, and
+						many more,{" "}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline italic"
+							href="https://pitch.com/v/rickyportofolio-cs8r6m"
+						>
+							click here
 						</a>
 					</p>
 				</footer>

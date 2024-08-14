@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 // native components
 import NavBar from "../components/Common/NavBar";
 import Introduction from "../components/Home/Introduction";
@@ -11,13 +14,27 @@ import Footer from "../components/Common/Footer";
 // import LinearGradient from "../components/magicui/linear-gradient";
 
 function Home() {
+	const { hash } = useLocation();
+
+	useEffect(() => {
+		if (hash) {
+			const element = document.getElementById(hash.substring(1));
+			if (element) {
+				element.scrollIntoView({ behavior: "smooth" });
+			}
+		}
+	}, [hash]);
 	return (
 		<>
 			<NavBar />
-			<Introduction />
+			<div id="sectionAbout">
+				<Introduction />
+			</div>
 			<BentoBox />
 			<TextRevealTagline />
-			<ProjectCard />
+			<div id="sectionProject">
+				<ProjectCard />
+			</div>
 			{/* <ContactMe /> */}
 			<Footer />
 		</>

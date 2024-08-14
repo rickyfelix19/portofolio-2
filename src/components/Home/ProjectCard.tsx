@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function ProjectCard() {
 	const projectCardItems = [
 		{
-			image: "",
+			image: "../home/KIPI_PPIA.png",
 			subheading: "UI/UX Designer at PPIA",
 			title:
 				"KIPI is a bi-annual conference held and organized by PPIA (Indonesian Students’ Association of Australia ) and invites Indonesian academias staying at Australia to share their work.",
@@ -12,7 +12,7 @@ function ProjectCard() {
 			link: "/projects/kipi",
 		},
 		{
-			image: "",
+			image: "../home/Give_a_Gift.webp",
 			subheading: "USYD - COMP5216: Mobile Computing",
 			title:
 				"Give a Gift was a solution to introduce that gift gifting is possible even if you are far away from your loved ones.",
@@ -21,7 +21,7 @@ function ProjectCard() {
 			link: "/projects/mobile-computing",
 		},
 		{
-			image: "",
+			image: "../home/Bottled_Moments.webp",
 			subheading: "USYD - IDEA 9102: IDEA Studio",
 			title:
 				"Bottled Moments is a created to introduce the connection of people to the lake by sending memories and gifts onto the lake (digitally)",
@@ -44,11 +44,7 @@ function ProjectCard() {
 						className="bg-slate-300 p-8 rounded-lg flex flex-col sm:flex-row items-center mb-10"
 					>
 						<div className="w-full sm:w-1/2 sm:order-2 flex justify-center relative mb-4 sm:mb-0">
-							<img
-								src={item.image}
-								alt="Phone 1"
-								className="w-40 h-80 object-cover"
-							/>
+							<img src={item.image} alt="Phone 1" className=" object-cover" />
 						</div>
 						<div className="w-full sm:w-1/2 sm:order-1 pr-8">
 							<p className="text-s font-semibold text-gray-600 mb-2">

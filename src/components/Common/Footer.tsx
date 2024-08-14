@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
 	const menuItems = [
-		{ name: "About Me", path: "/" },
-		{ name: "Projects", path: "/" },
+		{ name: "About Me", path: "/#sectionAbout" },
+		{ name: "Projects", path: "/#sectionProject" },
 		{ name: "Download Resume", path: "/" },
 	];
 	// const menuItems = ["About Me", "Projects", "Download Resume"];
