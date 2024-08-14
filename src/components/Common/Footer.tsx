@@ -5,7 +5,7 @@ const Footer = () => {
 		{ name: "About Me", path: "/#sectionAbout" },
 		{ name: "Projects", path: "/#sectionProject" },
 	];
-	const email = "your-email@example.com";
+	const email = "rickyfelix19@outlook.com";
 	const subject = "Subject Here";
 	const body = "Hello, I would like to get in touch with you regarding...";
 
