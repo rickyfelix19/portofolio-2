@@ -253,6 +253,26 @@ function BlogPost() {
 							here
 						</a>
 					</p>
+					<p className="text-white">
+						Zeplin Scenes:{" "}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline italic"
+							href="https://scene.zeplin.io/project/63553e0832581916c8df356a"
+						>
+							available here
+						</a>{" "}
+						and Zeplin Flows:{" "}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline italic"
+							href="https://zpl.io/5EMerK3"
+						>
+							available here
+						</a>
+					</p>
 				</footer>
 			</div>
 			<Footer />
