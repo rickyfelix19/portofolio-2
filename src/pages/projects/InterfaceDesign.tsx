@@ -8,9 +8,11 @@ function BlogPost() {
 			<div className="max-w-4xl mx-auto p-8">
 				{/* Header */}
 				<header className="mb-8 text-center">
-					<h1 className="text-4xl font-bold mb-4 text-white">KIPI 2022</h1>
+					<h1 className="text-4xl font-bold mb-4 text-white">
+						Niamod Properties
+					</h1>
 					<p className="text-white">
-						Developed with the team at PPIA Department of IT for about 3 months
+						University of Sydney course - IDEA9105 - Interface Design
 					</p>
 				</header>
 				{/* Image */}
