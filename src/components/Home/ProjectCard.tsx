@@ -29,6 +29,15 @@ function ProjectCard() {
 				"Our group received one of the best solution and was presented to the clienteles at mapMIMA.",
 			link: "/projects/idea-studio",
 		},
+		{
+			image: "../home/Interface_Design.webp",
+			subheading: "USYD - IDEA9105: Interface Design",
+			title:
+				"Niamod Properties is a company that requires our help to design a new interface for it's house tour services.",
+			paragraph:
+				"Our group received one of the best solution and was presented to the Domain Real Estates and Properties.",
+			link: "/projects/interface-design",
+		},
 	];
 	return (
 		<div className="relative max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32 dark:text-black">
