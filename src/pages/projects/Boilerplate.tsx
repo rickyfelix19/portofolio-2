@@ -8,71 +8,66 @@ function BlogPost() {
 			<div className="max-w-4xl mx-auto p-8">
 				{/* Header */}
 				<header className="mb-8 text-center">
-					<h1 className="text-4xl font-bold mb-4 text-white">KIPI 2022</h1>
+					<h1 className="text-4xl font-bold mb-4 text-white">
+						Bottled Moments
+					</h1>
 					<p className="text-white">
-						Developed with the team at PPIA Department of IT for about 3 months
+						University of Sydney course - IDEA 9102 - IDEA Studio
 					</p>
 				</header>
 				{/* Image */}
-				<div className="mb-8">
+				<div className="my-10">
 					<img
-						src="https://via.placeholder.com/800x400"
+						src="../projects/idea-studio/Banner.webp"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
 				</div>
+				{/* Button */}
+				<div className="flex justify-center items-center">
+					<button
+						onClick={() =>
+							window.open(
+								"https://pitch.com/v/rickyportofolio-cs8r6m",
+								"_blank",
+								"noopener"
+							)
+						}
+						className="mb-10 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					>
+						Open Full Presentation
+					</button>
+				</div>
+
 				{/* Content */}
-				<article className="prose prose-lg max-w-none text-white">
+				<article className="prose prose-lg max-w-none text-white mb-10">
 					<h2 className="text-3xl">Introduction</h2>
-					<br />
 					<p>
-						KIPI is an hybrid international symposium events organized by PPIA
-						(Indonesian Students’ Association of Australia). The following
-						project will only show one milestone out of three (KIPI 2022, a PPIA
-						bi-annual event). However, the tools and design thinking process
-						remains the same.
-						<br /> <br />
-						Annually, PPI DUNIA organizes an international symposium and in
-						2022, PPI-Australia was selected to be as the host and organizer of
-						SI XIV. Perhimpunan Pelajar Indonesia Australia (PPIA) or Indonesian
-						Students’ Association of Australia.
-						<br /> <br />
-						For approximately one year, PPIA create and organized multiple
-						events and named it Road to SI. Our events / milestones are as
-						follow:
-						<ol>
-							<li>1. KIPI</li>
-							<li>2. Career Fest</li>
-							<li>3. Symposium International XIV</li>
-						</ol>
-						<br />
-						And I was assigned to lead the project to create a “Road to SI”
-						website.
-						<br /> <br />
+						The thematic focus is Experience and Product Design of Media
+						Architecture. Groups will be developing your design work with the
+						goal of designing the visitor experience of a real-world cultural
+						venue. The studio will be supported by Lake Macquarie City Council
+						in New South Wales, and our Design Brief will have their Multi-Arts
+						Pavilion, mima (MAP mima), a cultural precinct as target location.
 					</p>
 				</article>
 				<hr />
-				<br />
-				<article className="prose prose-lg max-w-none text-white">
+
+				<article className="prose prose-lg max-w-none text-white my-10">
 					<h3 className="text-2xl">Design Thinking Process</h3>
 					<p>
-						Our team goes through the Stanford design thinking process as our
-						main process.
-					</p>
-					<br />
-				</article>
-				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">1) Empathize</h3>
-					<p>
-						As our team grow larger due to handling multiple projects. We
-						started recruiting more people and therefore, created an onboarding
-						process, we also include our stakeholders in our process to gather
-						requirements and ensuring everyone is well informed each step from
-						the beginning until the end.
-						<br /> <br />
-						<div className="mb-8">
+						As our project is separated onto two parts, we implemented Triple
+						Diamond.
+						<div className="my-10">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Double Diamond.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="my-10">
+							<img
+								src="../projects/idea-studio/Triple Diamond.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -80,15 +75,76 @@ function BlogPost() {
 					</p>
 				</article>
 				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">2) Define</h3>
+					<h3 className="text-2xl">1) Background Research</h3>
 					<p>
-						As we continue down our process, we start conceptualizing our ideas
-						into architectures and user journeys before we start creating our
-						lo-fidelity and high fidelity.
+						In 2018, Lake Macquaire City collaborated with University of
+						Newcastle to design a new venue that to be developed in Speers Point
+						Park as a significant cultural and arts space for Lake
+						Macquaire--that place is now known by the name mapMIMA.
 						<br /> <br />
-						<div className="mb-8">
+						mapMIMA was concepted by an architect student from University of
+						Newcastle named Samantha Bailey and the building was launched in
+						October 2021 with collaborations with other artists to allow the
+						place to be a beacon in Lake Macquaire area. And the intentions was
+						to create a landmark that is opened day and night to help establish
+						Lake Macquarie as one of the region's major cultural destinations,
+						with the potential to attract national and international artists and
+						exhibitions.
+						<br /> <br />
+						Since it is initial launching, the area is used to create a lot
+						attractions to the general public. This includes:
+						<ol>
+							<li>1. Local Music Performance</li>
+							<li>2. Art workshops for children</li>
+							<li>3. Public and potential tourists attractions</li>
+							<li>4. Food night market and social hangouts</li>
+						</ol>
+						<div className="my-10">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/mapMima attraction.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+					</p>
+				</article>
+				<article className="prose prose-lg max-w-none text-white">
+					<h3 className="text-2xl">2) Research Triangulation</h3>
+					<p>
+						Our group initialize hypothesis, before conducting any sort of
+						research, the users that comes and goes to mapMIMA as follow:
+						<div className="my-10">
+							<img
+								src="../projects/idea-studio/brainstorm.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+					</p>
+
+					<p>
+						Our group then proceed to conduct research by observing onsite, data
+						analytics, and survey to find out more of the area of mapMIMA and as
+						it turns out the data shows us as follow:
+						<div className="my-10">
+							<img
+								src="../projects/idea-studio/data analytics.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						To find out, we should target the following target user as well as
+						creating our Proto Persona as follow:
+						<div className="my-10">
+							<div className="my-10">
+								<img
+									src="../projects/idea-studio/target users.png"
+									alt="Blog Post Cover"
+									className="w-full rounded-lg object-cover"
+								/>
+							</div>
+							<img
+								src="../projects/idea-studio/Persona.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -98,51 +154,73 @@ function BlogPost() {
 				<article className="prose prose-lg max-w-none text-white">
 					<h3 className="text-2xl">3) Ideations </h3>
 					<p>
-						In total, our group ideate in total six times,
-						<ol>
-							<li>
-								1) We started by creating our lo fidelity. Each one of us
-								designed our own version of the page
-							</li>
-							<li>
-								2) We then went through internal discussion with ourselves to
-								see which one we should use and improved upon
-							</li>
-							<li>
-								3) We then select "our final piece" and add contemporary colors
-								to the page
-							</li>
-							<li>
-								4) We submit the result to our stakeholders and receive feedback
-								that the color pallette didn't match with the overall theme of
-								the conference and it made it seemed "unprofessional and
-								childish" as it looked similar to childrens' toy color palette.
-							</li>
-							<li>
-								5) Receiving the feedback, we continue by creating a Mi-Fidelity
-								of our product
-							</li>
-						</ol>
-						<br /> <br />
-						<div className="mb-8">
+						Our group proceed to the next stage by Ideating ideas to create
+						Bottled Moments:
+						<img
+							src="../projects/idea-studio/Ideation Process.png"
+							alt="Blog Post Cover"
+							className="w-full rounded-lg object-cover mt-10"
+						/>
+					</p>
+				</article>
+
+				<article className="prose prose-lg max-w-none text-white my-10">
+					<h3 className="text-2xl">
+						4) Double Diamond (1st Assignment Submitted)
+					</h3>
+					<p>
+						As a result, we created Bottled Moments which can be described as
+						follow:
+						<div className="my-10">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Bottled Moments.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
 					</p>
 				</article>
+
 				<article className="prose prose-lg max-w-none text-white">
-					<h3 className="text-2xl">4) Final Version</h3>
+					<h3 className="text-2xl">
+						5) Final Diamond (Iterations of improvements)
+					</h3>
 					<p>
-						Approaching the deadline, we conducted a final usability testing to
-						random users to improve upon our website, and the final result of
-						the website is as seen as follow:
-						<br /> <br />
-						<div className="mb-8">
+						To make sure we reach the best potential of our application, we
+						created based on localization of the product and adopting a design
+						system specifically for our users.
+						<div className="my-8">
 							<img
-								src="https://via.placeholder.com/800x400"
+								src="../projects/idea-studio/Artifact Research.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="my-8">
+							<img
+								src="../projects/idea-studio/Adopt Design System.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+					</p>
+				</article>
+
+				<article className="prose prose-lg max-w-none text-white">
+					<h3 className="text-2xl">6) Final Result</h3>
+					<p>
+						In the end, we submitted the final version of our application as
+						follow:
+						<div className="my-10">
+							<img
+								src="../projects/idea-studio/Bottled Moments app.png"
+								alt="Blog Post Cover"
+								className="w-full rounded-lg object-cover"
+							/>
+						</div>
+						<div className="my-10">
+							<img
+								src="../projects/idea-studio/Resolume app.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
@@ -151,37 +229,30 @@ function BlogPost() {
 				</article>
 
 				<hr />
-				<br />
 
-				<article className="prose prose-lg max-w-none text-white">
-					<h2 className="text-3xl">After KIPI 2022</h2>
-					<br />
-					<p>
-						After KIPI 2022, as previously stated there were two more that we
-						need to finalize (Career Fest and Symposium International). Both of
-						them overall follows the same design thinking process. As we
-						maximize our time and effort by using Trello to do our agile sprint.
-						<br /> <br />
-						<div className="mb-8">
-							<img
-								src="https://via.placeholder.com/800x400"
-								alt="Blog Post Cover"
-								className="w-full rounded-lg object-cover"
-							/>
-						</div>
-					</p>
-				</article>
 				{/* Footer */}
 				<footer className="mt-16 text-center">
 					<p className="text-white">
-						Demo is available at:{" "}
+						Demo Video is available by:{" "}
 						<a
 							target="_blank"
 							rel="noopener noreferrer"
 							className="underline italic"
-							href="https://symposium-ppid.webflow.io/"
+							href="https://drive.google.com/file/d/1Sfhon25CuOQAvmYoDRndlSHwcfzuQN65/view"
 						>
-							https://symposium-ppid.webflow.io/
+							clicking here
+						</a>
+					</p>
+					<p className="text-white">
+						To see the full presentation, including MVP, Success Outcome, and
+						many more,{" "}
+						<a
+							target="_blank"
+							rel="noopener noreferrer"
+							className="underline italic"
+							href="https://pitch.com/v/rickyportofolio-cs8r6m"
+						>
+							click here
 						</a>
 					</p>
 				</footer>

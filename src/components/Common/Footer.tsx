@@ -1,9 +1,11 @@
 import { Link } from "react-router-dom";
+// import VersionHistory from "../../pages/VersionHistory";
 
 const Footer = () => {
 	const menuItems = [
 		{ name: "About Me", path: "/#sectionAbout" },
 		{ name: "Projects", path: "/#sectionProject" },
+		{ name: "Version History", path: "../version-history" },
 	];
 	const email = "rickyfelix19@outlook.com";
 	const subject = "Subject Here";

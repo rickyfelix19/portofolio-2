@@ -16,12 +16,27 @@ function BlogPost() {
 					</p>
 				</header>
 				{/* Image */}
-				<div className="mb-8">
+				<div className="my-10">
 					<img
 						src="../projects/interface-design/Banner.webp"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
+				</div>
+				{/* Button */}
+				<div className="flex justify-center items-center">
+					<button
+						onClick={() =>
+							window.open(
+								"https://pitch.com/v/rickyportfolio-z84zqu",
+								"_blank",
+								"noopener"
+							)
+						}
+						className="mb-10 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					>
+						Open Full Presentation
+					</button>
 				</div>
 				{/* Content */}
 				<article className="prose prose-lg max-w-none text-white">
@@ -50,8 +65,7 @@ function BlogPost() {
 					</p>
 				</article>
 				<hr />
-				<br />
-				<article className="prose prose-lg max-w-none text-white">
+				<article className="prose prose-lg max-w-none text-white my-10">
 					<h3 className="text-2xl">Problem and Hypothesis</h3>
 					<p>
 						The initial exploration of the brief are as follow ‍“How might we
@@ -74,7 +88,7 @@ function BlogPost() {
 							<br />
 							To address this issue, we conduct using the Double Diamond
 						</ol>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/Double Diamond.png"
 								alt="Blog Post Cover"
@@ -94,21 +108,21 @@ function BlogPost() {
 						analysis to check how we could improve Niamod's business and elevate
 						their technology which can be summarized using the pictures below
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/technology-findings.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/trend-findings.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/competitor-insights.png"
 								alt="Blog Post Cover"
@@ -123,14 +137,14 @@ function BlogPost() {
 						As we conduct our interviews of 5 people and online ethnographies,
 						we found 3 user profiles
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/user-research.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/ellen-user-needs.png"
 								alt="Blog Post Cover"
@@ -145,7 +159,7 @@ function BlogPost() {
 						Before ideations, our group created our Jobs to be Done and
 						seperated into per per each members (group of three) as follow
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/JTDB.png"
 								alt="Blog Post Cover"
@@ -154,21 +168,21 @@ function BlogPost() {
 						</div>
 						Then separated our tasks, ideating iin total 3 times from
 						wireframing, lo-fidelity, and high fidelity.
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/design-approach.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/JTDB.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/ricky-feature.png"
 								alt="Blog Post Cover"
@@ -189,14 +203,14 @@ function BlogPost() {
 						project to Niamod Real Estates & Properties. With additional content
 						showcasing our design system,
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/niamod-design-system.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/interface-design/presentation.jpeg"
 								alt="Blog Post Cover"

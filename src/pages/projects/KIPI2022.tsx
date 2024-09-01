@@ -14,12 +14,27 @@ function BlogPost() {
 					</p>
 				</header>
 				{/* Image */}
-				<div className="mb-8">
+				<div className="my-10">
 					<img
 						src="../projects/kipi-2022/Banner.png"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
+				</div>
+				{/* Button */}
+				<div className="flex justify-center items-center">
+					<button
+						onClick={() =>
+							window.open(
+								"https://pitch.com/v/rickyportfolio-n7u8ra",
+								"_blank",
+								"noopener"
+							)
+						}
+						className="mb-10 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					>
+						Open Full Presentation
+					</button>
 				</div>
 				{/* Content */}
 				<article className="prose prose-lg max-w-none text-white">
@@ -70,14 +85,14 @@ function BlogPost() {
 						requirements and ensuring everyone is well informed each step from
 						the beginning until the end.
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Stakeholders.jpg"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/KIPI Brief.png"
 								alt="Blog Post Cover"
@@ -93,14 +108,14 @@ function BlogPost() {
 						into architectures and user journeys before we start creating our
 						lo-fidelity and high fidelity from Figma to Webflow.
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Architecture.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Comparison.png"
 								alt="Blog Post Cover"
@@ -138,7 +153,7 @@ function BlogPost() {
 							</li>
 						</ol>
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Lo Fidelity.png"
 								alt="Blog Post Cover"
@@ -154,14 +169,14 @@ function BlogPost() {
 						random users to improve upon our website, and the final result of
 						the website is as seen as follow:
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Final.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Congrats.png"
 								alt="Blog Post Cover"
@@ -183,7 +198,7 @@ function BlogPost() {
 						them overall follows the same design thinking process. As we
 						maximize our time and effort by using Trello to do our agile sprint.
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/kipi-2022/Trello.png"
 								alt="Blog Post Cover"

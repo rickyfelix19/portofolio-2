@@ -14,12 +14,27 @@ function BlogPost() {
 					</p>
 				</header>
 				{/* Image */}
-				<div className="mb-8">
+				<div className="my-10">
 					<img
 						src="../projects/mobile-comp/Banner.png"
 						alt="Blog Post Cover"
 						className="w-full rounded-lg object-cover"
 					/>
+				</div>
+				{/* Button */}
+				<div className="flex justify-center items-center">
+					<button
+						onClick={() =>
+							window.open(
+								"https://pitch.com/v/rickyportfolio-6fk9ku",
+								"_blank",
+								"noopener"
+							)
+						}
+						className="mb-10 rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+					>
+						Open Full Presentation
+					</button>
 				</div>
 				{/* Content */}
 				<article className="prose prose-lg max-w-none text-white">
@@ -129,7 +144,7 @@ function BlogPost() {
 						the application in which I change to Lo Fidelity (and eventually
 						High Fidelity of the application)
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Lo Fidelity.png"
 								alt="Blog Post Cover"
@@ -156,14 +171,14 @@ function BlogPost() {
 							</li>
 						</ol>
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Profile page changes.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Onboarding.png"
 								alt="Blog Post Cover"
@@ -198,21 +213,21 @@ function BlogPost() {
 							</span>
 						</ol>
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Zeplin.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Client.png"
 								alt="Blog Post Cover"
 								className="w-full rounded-lg object-cover"
 							/>
 						</div>
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Business.png"
 								alt="Blog Post Cover"
@@ -227,7 +242,7 @@ function BlogPost() {
 						Due to achieving high marks, our group project is presented to the
 						whole cohort.
 						<br /> <br />
-						<div className="mb-8">
+						<div className="my-10">
 							<img
 								src="../projects/mobile-comp/Presentation.png"
 								alt="Blog Post Cover"
