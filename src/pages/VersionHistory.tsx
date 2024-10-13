@@ -29,6 +29,11 @@ const versionHistory = [
 			"Add version history",
 		],
 	},
+	{
+		version: "3.0.2",
+		date: "13 October 2025",
+		changes: ["Change image into icons", "Insert icons into BentoBox"],
+	},
 ];
 
 const VersionHistory = () => {
