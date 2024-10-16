@@ -112,7 +112,7 @@ function NavigationBar() {
 							Projects
 						</Link>
 						<a
-							href="./Ricky_Felix-Resume-UIUX_Designer.pdf"
+							href="./Ricky_Felix-Resume-UI_UX_Engineer.pdf"
 							className="text-white bg-blue-600 hover:bg-blue-700 block px-3 py-2 rounded-md text-base font-medium text-center"
 							download
 						>
